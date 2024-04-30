@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'FuentePagina';
+    src: url('/static/font/Roboto-Medium.ttf') format('ttf');
+    /* Puedes agregar otros formatos de fuente aquí si los tienes, como .ttf, .otf, etc. */
+}
+
+:root{
+    --color-primario:#07143B;
+    --color-primario-hover:#05206e;
+    --color-secundario:#E3E3E3;
+    --color-secundario-hover:#cac8c8;
+}
+
+.h-insertar-autor{
+    text-align: center;
+    margin: 10px;
+    color: var(--color-primario);
+}
+
+.form-insertar-autor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-insertar-autor-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombres-autor-insertar{
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 7px 14px;
+    outline: none;
+    border: none;
+    background-color: var(--color-secundario);
+    border-radius: 18px;
+    box-shadow: 0 5px 10px #676666;
+}
+
+
+.biografia-insertar-autor{
+    width: 100%;
+    overflow-y: scroll;
+    min-height: 500px;
+    max-height: 500px;
+
+    padding: 20px 30px;
+    font-size: 20px;
+
+    outline: none;
+    border: none;
+    background-color: var(--color-secundario);
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 5px 10px #676666;
+}
+
+.toolbar{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: var(--color-primario);
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 5px 10px #676666;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-toolbar{
+  border: none;
+  border: 2px solid var(--color-primario);
+  border-radius: 8px;
+  margin: 1px 1px;
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.btn-toolbar:hover{
+  border: 2px solid var(--color-secundario);
+  color: var(--color-secundario);
+  background-color: var(--color-primario);
+}
+
+.btn-toolbar.active{
+  background-color: var(--color-secundario-hover);
+  border: 2px solid var(--color-secundario);
+  color: var(--color-secundario);
+  background-color: var(--color-primario);
+}
+
+.archivos-insertar-autor{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    color: var(--color-primario);
+}
+
+input[type="file"] {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--color-primario);
+    border-radius: 0 18px 18px 0;
+    border: 2px solid var(--color-primario);
+    box-shadow: 0 5px 8px #676666;
+    margin-bottom: 15px;
+    color: var(--color-secundario);
+    padding: 2px;
+
+    transition: all 0.5s;
+}
+
+input[type="file"]:hover {
+    margin-left: 10px;
+}
+
+.btn-insertar-autor{
+    margin: 0 auto;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border: 2px solid var(--color-secundario);
+    cursor: pointer;
+}
+
+.btn-insertar-autor:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+}
+
+/* .......MODAL........-.-.-.-.-. */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+  .modal-content-libros {
+    position: relative;
+    background-color: var(--color-secundario);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: FuentePagina;
+  }
+
+  .modal-content-libros .info-modal{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .close {
+    position: absolute;
+    color: #aaa;
+    top:0px;
+    right: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-modal-close, .btn-modal-calificar{
+    display: none;
+    position: absolute;
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border: none;
+    border: 2px solid var(--color-secundario);
+    bottom:20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .btn-modal-calificar{
+    display: block;
+    bottom:10px;
+    right: 10px;
+  }
+
+  .btn-modal-close:hover, .btn-modal-calificar:hover{
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
+  }
+
+  .titulo-libro-resena{
+    text-align: center;
+  }
+  
+/* .......MODAL........-.-.-.-.-. */
+
+
+
+@media screen and (max-width: 991.98px) {
+    .nombres-autor-insertar{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 991.98px) and (max-width: 1400px){
+    .nombres-autor-insertar{
+        width: 80%;
+    }
+}

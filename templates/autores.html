@@ -1,0 +1,64 @@
+{% extends "layout.html" %} {% block style %}autores/autores.css{% endblock %}
+{% block title%}Autores{% endblock %} {% block claseIMGHeader %}img-header{%
+endblock %} {% block header %}Autores{% endblock %} {% block main %}
+<!--Main layout-->
+<main>
+  <div id="myModal-biografia" class="modal-biografia">
+    <div class="modal-content-autores" id="modal-content-autores">
+      <span class="close-biografia">&times;</span>
+      <div id="info-modal-biografia" class="info-modal-biografia">
+      </div>
+      <button class="btn-modal-close-biografia" id="btn-modal-close-biografia" type="button">
+        Cerrar
+      </button>
+    </div>
+  </div>
+  <!-- Busqueda -->
+  <!-- Buscador -->
+  <div class="container">
+    <section class="seccion-busqueda">
+      <form class="buscador bg-primary d-flex" id="buscador-form">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          class="input-buscador"
+          placeholder="Buscar"
+          autocomplete="off"
+        />
+        <button type="submit" class="btn-search" id="btn-search">
+          <i class="fas fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </section>
+  </div>
+  <!-- Buscador -->
+
+  <!-- Separador -->
+  <hr class="hr hr-blurry" />
+  <!-- Contenido a mostrar -->
+  <div class="container">
+    <div class="contenido-autores" id="contenido-autores"></div>
+  </div>
+  <!-- Contenido a mostrar -->
+
+  <!-- paginacion -->
+  <div class="container d-flex justify-content-center paginacion-container">
+    <nav class="d-flex">
+      <ul class="pagination">
+        <li class="page-item" id="prev-page-btn" onclick="prevPage()">
+          <a class="page-link">&laquo;</a>
+        </li>
+      </ul>
+      <ul class="pagination" id="page-numbers"></ul>
+      <ul class="pagination">
+        <li class="page-item" id="next-page-btn" onclick="nextPage()">
+          <a class="page-link">&raquo;</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- paginacion -->
+</main>
+<!--Main layout-->
+{% endblock %} {% block script %}autores/autores.js{% endblock %}

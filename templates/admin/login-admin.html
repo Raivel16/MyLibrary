@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Insertar el favicon -->
+    <link rel="icon" href="/static/favicon.png" type="image/x-icon" />
+
+    <!-- Opcionalmente, también puedes especificar un icono para dispositivos móviles -->
+    <link rel="apple-touch-icon" href="/static/favicon.png" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="/static/MDB-Bootstrap/css/mdb.min.css" />
+
+    <!--My styles-->
+    <link rel="stylesheet" href="/static/login/login.css" />
+    <title>Iniciar Sesion Admin</title>
+  </head>
+  <body class="body-login">
+
+    <!--Main layout-->
+    <main>
+      <!-- Section: Split screen -->
+      <section>
+        <div class="container-fluid px-0">
+          <div class="row g-0 bg-primario">
+            <div
+              class="col-lg-12 vh-100 d-flex flex-column justify-content-center align-items-center bg-secundario border-b-radius-login shadow-strong-login"
+              id="contenedorLogin"
+            >
+              <!-- Headings -->
+              <div
+                class="h-75 d-flex justify-content-center align-items-center px-5"
+              >
+                <div class="color-primario">
+                  <img
+                    class=""
+                    src="/static/LOGO.png"
+                    alt="MiLibrary"
+                    width="300px"
+                  />
+                  <div class="d-lg-inline-block">
+                    <div
+                      class="d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <span class="display-4">My</span>
+                      <span class="display-2 fw-bold text-uppercase d-block">
+                        Library
+                      </span>
+                      <span class="display-6 text-decoration-underline">
+                        Admin
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="arrow-login color-primario">
+                <i
+                  class="fas fa-3x fa-circle-chevron-down"
+                  id="arrow-login"
+                ></i>
+              </div>
+            </div>
+            <div
+              class="col-lg-5 vh-100 d-lg-inline-block"
+            >
+              <!-- Formulario inicio de sesion -->
+              <div class="container-fluid vh-100 px-5" id="divIniciarSesion">
+                <div class="row g-0 px-4 h-100">
+                  <div
+                    class="col h-75 d-flex justify-content-center align-items-center align-content-between flex-column color-secundario mt-4 text-center"
+                  >
+                    <div class="mb-4">
+                      <h1 class="display-4 mt-5 fw-bold w-100">
+                        Iniciar Sesión
+                      </h1>
+                    </div>
+                    <!-- Formulario bootstrap -->
+                    <form class="mt-1 form-login-iniciar" id="formulario-iniciarSesion">
+                      <div class="input-login d-flex align-items-center">
+                        <i class="fas fa-user"></i>
+                        <input
+                          class="w-100"
+                          type="text"
+                          name="username"
+                          id="username"
+                          autocomplete="off"
+                          placeholder="Nombre de usuario"
+                          maxlength="17"
+                        />
+                      </div>
+                      <div class="input-login d-flex align-items-center">
+                        <i class="fas fa-lock"></i>
+                        <input
+                          class="w-100"
+                          type="password"
+                          name="password"
+                          id="password"
+                          autocomplete="off"
+                          placeholder="Contraseña"
+                          maxlength="17"
+                        />
+                      </div>
+                      <div class="">
+                        <button class="btn-acceder-login" type="submit">Acceder</button>
+                      </div>
+                      <div class="errores-inicioSesion" id="resp-errores"></div>
+                    </form>
+                    <!-- Formulario bootstrap -->
+                  </div>
+                </div>
+              </div>
+              <!-- Formulario inicio de sesion -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Split screen -->
+    </main>
+    <!--Main layout-->
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="/static/MDB-Bootstrap/js/mdb.min.js"
+    ></script>
+
+    <!-- Importando axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!--js de la página-->
+    <script type="text/javascript" src="/static/admin/login-admin/login-admin.js"></script>
+  </body>
+</html>

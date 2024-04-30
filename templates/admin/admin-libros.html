@@ -1,0 +1,111 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/libros-admin/libros-admin.css{% endblock %} {% block title%}Libros
+Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<div id="myModal-biografia" class="modal-biografia">
+  <div class="modal-content-autores" id="modal-content-autores">
+    <span class="close-biografia">&times;</span>
+    <div id="info-modal-biografia" class="info-modal-biografia"></div>
+    <button
+      class="btn-modal-close-biografia"
+      id="btn-modal-close-biografia"
+      type="button"
+    >
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="text-center">Libros</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<!-- Estadisticas -->
+<div class="container d-flex justify-content-center">
+  <section class="div-estadisticas-admin">
+    <div class="div-datos-libros">
+      <div class="datos-libros">Total de libros: <span id="total-libros"></span> </div>
+      <div class="datos-libros">Libros calificados: <span id="libros-visitados"></span></div>
+    </div>
+    <a class="btn-insertar-libro" href="/admin-libros-insertar">Insertar nuevo libro</a>
+  </section>
+</div>
+<!-- Estadisticas -->
+
+<!-- Busqueda y filtros -->
+<div class="container">
+  <section class="seccion-busqueda">
+    <!-- Buscador -->
+    <form class="buscador bg-primary d-flex" id="buscador-form">
+      <input
+        type="search"
+        name="search"
+        id="search"
+        class="input-buscador"
+        placeholder="Buscar"
+        autocomplete="off"
+      />
+      <button type="submit" class="btn-search" id="btn-search">
+        <i class="fas fa-magnifying-glass"></i>
+      </button>
+    </form>
+    <!-- Buscador -->
+
+    <!-- /* SELECT PERSONALIZADO  */ -->
+    <div class="custom-select">
+      <div class="selected-option" onclick="toggleOptions()" id="search-tipo">
+        <div class="selected-option-content">Seleccionar tipo de búsqueda</div>
+        <div class="arrow-select"><i class="fas fa-caret-down"></i></div>
+      </div>
+
+      <div class="options" id="options" name=""></div>
+    </div>
+    <!-- /* SELECT PERSONALIZADO  */ -->
+  </section>
+
+  <section class="seccion-filtrar-genero">
+    <div class="filtros-genero" id="filtros-genero"></div>
+  </section>
+</div>
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<!-- Contenido a mostrar -->
+<div class="container">
+  <div class="contenido-libros" id="contenido-libros">
+    <!-- Items de libros -->
+  </div>
+</div>
+<!-- Contenido a mostrar -->
+
+<!-- paginacion -->
+<div class="container d-flex justify-content-center paginacion-container">
+  <nav class="d-flex">
+    <ul class="pagination">
+      <li class="page-item" id="prev-page-btn" onclick="prevPage()">
+        <a class="page-link">&laquo;</a>
+      </li>
+    </ul>
+    <ul class="pagination" id="page-numbers"></ul>
+    <ul class="pagination">
+      <li class="page-item" id="next-page-btn" onclick="nextPage()">
+        <a class="page-link">&raquo;</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/libros-admin/libros-admin.js{% endblock
+%}

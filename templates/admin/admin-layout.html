@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Insertar el favicon -->
+    <link rel="icon" href="/static/favicon.png" type="image/x-icon" />
+
+    <!-- Opcionalmente, también puedes especificar un icono para dispositivos móviles -->
+    <link rel="apple-touch-icon" href="/static/favicon.png" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="/static/MDB-Bootstrap/css/mdb.min.css" />
+
+    <!--My styles-->
+    <link rel="stylesheet" href="/static/admin/styles-admin.css" />
+    <link rel="stylesheet" href="/static/{% block style %}{% endblock %}" />
+
+   
+    <title>{% block title%}{% endblock %}</title>
+  </head>
+  <body>
+    <!--Main Navigation-->
+    <header class="mb-5">
+      <!-- Navbar -->
+      <nav
+        id="main-navbar"
+        class="navbar navbar-expand-md fixed-top navbar-after-scroll"
+      >
+        <!-- Container wrapper -->
+
+        <div class="container-fluid">
+          <div class="div-logo">
+            <a class="navbar-brand">
+              <img
+                src="/static/LOGO.png"
+                class=""
+                height="40"
+                alt="MyLibrary.com"
+                loading="lazy"
+              />
+              <div class="d-lg-inline-block">
+                <div class="d-flex justify-content-center align-items-center">
+                  <span class="ms-1 fw-bold letra-logo">MyLibrary</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Collapsible wrapper -->
+          <div class="text-admin-navbar">
+            Admin
+          </div>
+          <!-- Collapsible wrapper -->
+
+          <div id="divRightElements" class="right-elements">
+            <!-- Right elements -->
+            <div class="d-flex align-items-center justify-content-center">
+              <!-- Avatar -->
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                  href=""
+                  id="navbarDropdownMenuAvatar"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-circle-user perfil-icon" id="pagPerfil"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuAvatar"
+                >
+                <li>
+                    <a class="dropdown-item" href="/logout"
+                      >Cerrar sesión <i class="fas fa-power-off"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right elements -->
+          </div>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
+
+    <div class="menu-left-admin">
+      <a href="/admin" class="btn-seccion-menu-admin primer-btn" id="btn-inicio-admin"><i class="fas fa-house"></i> Inicio</a>
+      <a href="/admin-libros" class="btn-seccion-menu-admin" id="btn-libros-admin"><i class="fas fa-book"></i> Libros</a>
+      <a href="/admin-autores" class="btn-seccion-menu-admin" id="btn-autores-admin"><i class="fas fa-feather"></i> Autores</a>
+      <a href="/admin-generos" class="btn-seccion-menu-admin" id="btn-generos-admin"><i class="fas fa-masks-theater"></i> Géneros</a>
+      <a href="/admin-usuarios" class="btn-seccion-menu-admin" id="btn-usuarios-admin"><i class="fas fa-user"></i> Usuarios</a>
+      <a href="/admin-historial" class="btn-seccion-menu-admin" id="btn-historial-admin"><i class="fas fa-clipboard"></i> Historial</a>
+    </div>
+    <main>
+    <div class="div-right-admin">
+      {% block main %} {% endblock %}
+    </div>
+    </main>
+    <button id="btnMoverAlTop" title="Mover al Top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+
+    <footer class="bg-secundario text-center text-white mt-5 footer-admin">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998"
+            href="https://www.facebook.com/raivel.lorenzovaliente"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee"
+            href="https://twitter.com/i/flow/login?redirect_after_login=%2FrLorenzoValient%3Ffbclid%3DIwAR1w_UGsZGrQTmR7uwK0wZlL55ENnpl4a-2GSlYax8T9hs3Nju2pzJea0OA"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/raivel_lorenzovaliente/?fbclid=IwAR3miIgUznGb24P2Wv60i9LCXP5nS6OI5Qifnf6FgaMGWStjlk1G5S_00mU"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/Raivel16"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3 bg-primario">
+        © 2023 Copyright:
+        <a class="text-white" href="https://MyLibrary.com/">MyLibrary.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="/static/MDB-Bootstrap/js/mdb.min.js"
+    ></script>
+
+    <script src="/static/admin/admin-layout.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/18.0.0/classic/ckeditor.js"></script>
+
+    
+    <!-- Importando axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="/static/{% block script %}{% endblock %}"></script>
+  </body>
+</html>

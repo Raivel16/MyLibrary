@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'FuentePagina';
+    src: url('/static/font/Roboto-Medium.ttf') format('ttf');
+    /* Puedes agregar otros formatos de fuente aquí si los tienes, como .ttf, .otf, etc. */
+}
+
+:root{
+    --color-primario:#07143B;
+    --color-primario-hover:#05206e;
+    --color-secundario:#E3E3E3;
+    --color-secundario-hover:#cac8c8;
+}
+
+
+.h1-index{
+    text-align: center;
+    color: var(--color-primario);
+}
+.div-estadisticas-admin{
+    width: 60%;
+    height: 400px;
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    background-color: var(--color-secundario);
+    border-top: 15px solid var(--color-primario);
+    border-radius: 35px;
+
+    box-shadow: 0 5px 10px #676666;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div-datos-index{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.datos-index{
+    font-size: 20px;
+    font-family: FuentePagina;
+    font-weight: bold;
+    color: var(--color-primario);
+    min-width: 150px;
+}
+
+.datos-index span{
+    color: rgb(18, 199, 18);
+    font-size: 25px;
+}

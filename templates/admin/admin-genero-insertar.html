@@ -1,0 +1,36 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/generos-admin/generos-insertar-admin.css{% endblock %} {% block
+title%}Géneros Insertar Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="h-insertar-genero">Insertar Género</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<form class="form-insertar-genero" id="form-insertar-genero">
+  <div class="container div-insertar-genero-form">
+    <h3 class="h-insertar-genero">Nombre del género</h3>
+    <input
+      type="text"
+      class="nombre-genero-insertar"
+      id="nombre-genero-insertar"
+      autocomplete="off"
+      placeholder="Nombre"
+    />
+  <button type="submit" class="btn-insertar-genero">Insertar</button>
+</form>
+
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/generos-admin/generos-insertar-admin.js{%
+endblock %}

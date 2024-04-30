@@ -1,0 +1,119 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/libros-admin/libros-insertar-admin.css{% endblock %} {% block
+title%}Libros Insertar Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="h-insertar-libro">Insertar Libro</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<form class="form-insertar-libro" id="form-insertar-libro">
+  <div class="container div-insertar-libro-form">
+    <h3 class="h-insertar-libro">Título del libro</h3>
+    <input
+      type="text"
+      class="titulo-libro-insertar"
+      id="titulo-libro-insertar"
+      autocomplete="off"
+      placeholder="Título"
+    />
+
+    <h3 class="h-insertar-libro">Autor del libro</h3>
+
+    <!-- /* SELECT PERSONALIZADO  */ -->
+    <div class="custom-select">
+      <div class="selected-option" onclick="toggleOptions()" id="search-tipo">
+        <div class="selected-option-content">Seleccionar autor</div>
+        <div class="arrow-select"><i class="fas fa-caret-down"></i></div>
+      </div>
+
+      <div class="options" id="options" name=""></div>
+    </div>
+    <!-- /* SELECT PERSONALIZADO  */ -->
+  </div>
+
+  <!-- Separador -->
+  <hr class="hr hr-blurry" />
+
+  <div class="container">
+    <h3 class="h-insertar-libro">Reseña</h3>
+    <div class="toolbar" id="toolbar">
+      <button type="button" class="btn-toolbar" onclick="execCommand('bold')">
+        <b><i class="fas fa-bold"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="execCommand('italic')">
+        <i><i class="fas fa-italic"></i></i>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="setFontSize()">
+        <b><i class="fas fa-text-height"></i></b>
+      </button>
+      <button
+        type="button"
+        class="btn-toolbar"
+        onclick="execCommand('insertUnorderedList')"
+      >
+        <b><i class="fas fa-list"></i></b>
+      </button>
+      <button
+        type="button"
+        class="btn-toolbar"
+        onclick="execCommand('insertOrderedList')"
+      >
+        <b><i class="fas fa-list-ol"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="indentText()">
+        <b><i class="fas fa-indent"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="outdentText()">
+        <b><i class="fas fa-indent" style="transform: scaleX(-1)"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar"  id="btn-source" onclick="toggleSourceView()">
+        <b><i class="fas fa-code"></i></b>
+      </button>
+    </div>
+    <div
+      class="resena-insertar-libro"
+      id="editor"
+      contenteditable="true"
+      oninput="updateHtmlPreview()"
+    ></div>
+  </div>
+
+  <!-- Separador -->
+  <hr class="hr hr-blurry" />
+
+  <div class="container">
+    <h2 class="h-insertar-libro">Géneros</h2>
+    <section class="seccion-filtrar-genero">
+      <div class="filtros-genero" id="filtros-genero"></div>
+    </section>
+  </div>
+
+  <div class="container archivos-insertar-libro">
+    <div>
+      <h4>Imagen de portada (97x120 px)</h4>
+      <input type="file" id="imagen-insertar-libro" accept=".png" />
+    </div>
+    <div>
+      <h4>Archivo pdf</h4>
+      <input type="file" id="pdf-insertar-libro" accept=".pdf" />
+    </div>
+  </div>
+
+  <button type="submit" class="btn-insertar-libro">Insertar</button>
+</form>
+
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/libros-admin/libros-insertar-admin.js{%
+endblock %}

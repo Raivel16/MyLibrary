@@ -1,0 +1,93 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/autores-admin/autores-admin.css{% endblock %} {% block title%}Autores
+Admin{% endblock %} {% block main %}
+<!--Main layout-->
+
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<div id="myModal-biografia" class="modal-biografia">
+  <div class="modal-content-autores" id="modal-content-autores">
+    <span class="close-biografia">&times;</span>
+    <div id="info-modal-biografia" class="info-modal-biografia"></div>
+    <button
+      class="btn-modal-close-biografia"
+      id="btn-modal-close-biografia"
+      type="button"
+    >
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="text-center">Autores</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<!-- Estadisticas -->
+<div class="container d-flex justify-content-center">
+  <section class="div-estadisticas-admin">
+    <div class="div-datos-autor">
+      <div class="datos-autor">Total de autores: <span id="total-autores"></span> </div>
+    </div>
+    <a class="btn-insertar-autor" href="/admin-autor-insertar">Insertar nuevo autor</a>
+  </section>
+</div>
+<!-- Estadisticas -->
+
+<!-- Buscador -->
+<div class="container">
+  <section class="seccion-busqueda">
+    <form class="buscador bg-primary d-flex" id="buscador-form">
+      <input
+        type="search"
+        name="search"
+        id="search"
+        class="input-buscador"
+        placeholder="Buscar"
+        autocomplete="off"
+      />
+      <button type="submit" class="btn-search" id="btn-search">
+        <i class="fas fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </section>
+</div>
+<!-- Buscador -->
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+<!-- Contenido a mostrar -->
+<div class="container">
+  <div class="contenido-autores" id="contenido-autores"></div>
+</div>
+<!-- Contenido a mostrar -->
+
+<!-- paginacion -->
+<div class="container d-flex justify-content-center paginacion-container">
+  <nav class="d-flex">
+    <ul class="pagination">
+      <li class="page-item" id="prev-page-btn" onclick="prevPage()">
+        <a class="page-link">&laquo;</a>
+      </li>
+    </ul>
+    <ul class="pagination" id="page-numbers"></ul>
+    <ul class="pagination">
+      <li class="page-item" id="next-page-btn" onclick="nextPage()">
+        <a class="page-link">&raquo;</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/autores-admin/autores-admin.js{% endblock
+%}

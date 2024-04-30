@@ -1,0 +1,55 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/usuarios-admin/usuarios-insertar-admin.css{% endblock %} {% block
+title%}Usuario Insertar Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="h-insertar-usuario">Insertar Usuario</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<form class="form-insertar-usuario" id="form-insertar-usuario">
+  <div class="container div-insertar-usuario-form">
+    <h3 class="h-insertar-usuario">Nombre del usuario</h3>
+    <input
+      type="text"
+      class="nombre-usuario-insertar"
+      id="nombre-usuario-insertar"
+      autocomplete="off"
+      placeholder="Nombre de usuario"
+    />
+
+    <h3 class="h-insertar-usuario">Contraseña</h3>
+    <input
+      type="text"
+      class="nombre-usuario-insertar"
+      id="contraseña-usuario-insertar"
+      autocomplete="off"
+      placeholder="Contraseña"
+    />
+
+    <h3 class="h-insertar-usuario">Repetir Contraseña</h3>
+    <input
+      type="text"
+      class="nombre-usuario-insertar"
+      id="repetir-usuario-insertar"
+      autocomplete="off"
+      placeholder="Repetir Contraseña"
+    />
+  </div>
+  <button type="submit" class="btn-insertar-usuario">Insertar</button>
+</form>
+
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/usuarios-admin/usuarios-insertar-admin.js{%
+endblock %}

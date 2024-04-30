@@ -1,0 +1,41 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/historial-admin/historial-admin.css{% endblock %} {% block
+title%}Historial Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<h1 class="text-center">Historial</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<div class="contenedor-filas-historial">
+  <div class="fila encabezado-fila">
+    <div class="columna">ID Operación</div>
+    <div class="columna">AdminID</div>
+    <div class="columna">Tipo de Operación</div>
+    <div class="columna">Tabla modificada</div>
+    <div class="columna">ID registro</div>
+    <div class="columna">Fecha</div>
+  </div>
+</div>
+<div class="contenedor-filas-historial contenido" id="filas-contenido"></div>
+
+<!-- paginacion -->
+<div class="container d-flex justify-content-center paginacion-container">
+  <nav class="d-flex">
+    <ul class="pagination">
+      <li class="page-item" id="prev-page-btn" onclick="prevPage()">
+        <a class="page-link">&laquo;</a>
+      </li>
+    </ul>
+    <ul class="pagination" id="page-numbers"></ul>
+    <ul class="pagination">
+      <li class="page-item" id="next-page-btn" onclick="nextPage()">
+        <a class="page-link">&raquo;</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/historial-admin/historial-admin.js{%
+endblock %}

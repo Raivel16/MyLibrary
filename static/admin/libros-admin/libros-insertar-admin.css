@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'FuentePagina';
+    src: url('/static/font/Roboto-Medium.ttf') format('ttf');
+    /* Puedes agregar otros formatos de fuente aquí si los tienes, como .ttf, .otf, etc. */
+}
+
+:root{
+    --color-primario:#07143B;
+    --color-primario-hover:#05206e;
+    --color-secundario:#E3E3E3;
+    --color-secundario-hover:#cac8c8;
+}
+
+
+
+/*Filtros*/
+.seccion-filtrar-genero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.filtros-genero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-genero{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: fit-content;
+
+    padding: 2px 10px;
+    margin: 5px;
+
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
+    border-radius: 15px;
+
+    color: var(--color-primario);
+    font-size: 18px;
+
+    box-shadow: 0 2px 5px #676666;
+
+    cursor:pointer;
+}
+
+.item-genero.selected-genero{
+    background-color: var(--color-primario);
+    border: 2px solid var(--color-secundario);
+    color: var(--color-secundario);
+    cursor:auto;
+}
+
+.item-genero:hover{
+    background-color: var(--color-primario);
+    border: 2px solid var(--color-secundario);
+    color: var(--color-secundario);
+}
+
+.cont-genero{
+    position: relative;
+}
+
+
+.close-genero{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-primario);
+
+    display: none;
+    margin-left: 5px;
+    font-size: 15px;
+    height: 24px;
+    padding: 0px 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.close-genero:hover{
+    border: 2px solid var(--color-secundario);
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+/*Filtros*/
+
+.h-insertar-libro{
+    text-align: center;
+    margin: 10px;
+    color: var(--color-primario);
+}
+
+.form-insertar-libro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-insertar-libro-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-libro-insertar{
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 7px 14px;
+    outline: none;
+    border: none;
+    background-color: var(--color-secundario);
+    border-radius: 18px;
+    box-shadow: 0 5px 10px #676666;
+}
+
+
+.resena-insertar-libro{
+    width: 100%;
+    overflow-y: scroll;
+    min-height: 500px;
+    max-height: 500px;
+
+    padding: 20px 30px;
+    font-size: 20px;
+
+    outline: none;
+    border: none;
+    background-color: var(--color-secundario);
+    border-radius: 0px 0px 18px 18px;
+    box-shadow: 0 5px 10px #676666;
+}
+
+
+.toolbar{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: var(--color-primario);
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 5px 10px #676666;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-toolbar{
+  border: none;
+  border: 2px solid var(--color-primario);
+  border-radius: 8px;
+  margin: 1px 1px;
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.btn-toolbar:hover{
+  border: 2px solid var(--color-secundario);
+  color: var(--color-secundario);
+  background-color: var(--color-primario);
+}
+
+.btn-toolbar.active{
+  background-color: var(--color-secundario-hover);
+  border: 2px solid var(--color-secundario);
+  color: var(--color-secundario);
+  background-color: var(--color-primario);
+}
+
+
+.archivos-insertar-libro{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    color: var(--color-primario);
+}
+
+input[type="file"] {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--color-primario);
+    border-radius: 0 18px 18px 0;
+    border: 2px solid var(--color-primario);
+    box-shadow: 0 5px 8px #676666;
+    margin-bottom: 15px;
+    color: var(--color-secundario);
+    padding: 2px;
+
+    transition: all 0.5s;
+}
+
+input[type="file"]:hover {
+    margin-left: 10px;
+}
+
+.btn-insertar-libro{
+    margin: 0 auto;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border: 2px solid var(--color-secundario);
+    cursor: pointer;
+}
+
+.btn-insertar-libro:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+}
+
+
+/* SELECT PERSONALIZADO  */
+.custom-select {
+    position: relative;
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+  }
+
+  .selected-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #676666;
+    cursor: pointer;
+    padding: 5px 10px; /* Agregamos un espacio para la flecha */
+    font-size: 20px;
+    text-align: center;
+
+    white-space: nowrap; 
+    overflow: hidden;
+  }
+  .selected-option-content{
+    width: 90%;
+    padding-left: 15px;
+  }
+
+  .options {
+    position: absolute;
+    z-index: 1;
+    top: 115%;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #676666;
+    transform-origin: top center;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: scaleY(0);
+
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+
+    max-height: 150px;
+    overflow: auto;
+  }
+
+  .option {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .option:hover{
+    background-color:var(--color-secundario-hover);
+    cursor: pointer;
+  }
+
+  .option:last-child {
+    border-bottom: none;
+  }
+/* SELECT PERSONALIZADO  */
+
+
+/* .......MODAL........-.-.-.-.-. */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+  .modal-content-libros {
+    position: relative;
+    background-color: var(--color-secundario);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: FuentePagina;
+  }
+
+  .modal-content-libros .info-modal{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .close {
+    position: absolute;
+    color: #aaa;
+    top:0px;
+    right: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-modal-close, .btn-modal-calificar{
+    display: none;
+    position: absolute;
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border: none;
+    border: 2px solid var(--color-secundario);
+    bottom:20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .btn-modal-calificar{
+    display: block;
+    bottom:10px;
+    right: 10px;
+  }
+
+  .btn-modal-close:hover, .btn-modal-calificar:hover{
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
+  }
+
+  .titulo-libro-resena{
+    text-align: center;
+  }
+  
+/* .......MODAL........-.-.-.-.-. */
+
+@media screen and (max-width: 991.98px) {
+    .custom-select {
+        width: 98%;
+    }
+    .titulo-libro-insertar{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 991.98px) and (max-width: 1400px){
+    .custom-select {
+        width: 80%;
+    }
+    .titulo-libro-insertar{
+        width: 80%;
+    }
+}

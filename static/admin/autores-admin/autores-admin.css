@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'FuentePagina';
+    src: url('/static/font/Roboto-Medium.ttf') format('ttf');
+    /* Puedes agregar otros formatos de fuente aquí si los tienes, como .ttf, .otf, etc. */
+}
+
+:root{
+    --color-primario:#07143B;
+    --color-primario-hover:#05206e;
+    --color-secundario:#E3E3E3;
+    --color-secundario-hover:#cac8c8;
+}
+
+.seccion-busqueda{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tamaño de border radios buscador */
+:root {
+    --tamano-border-radius: 18px;
+}
+
+.buscador{
+    width: 50%;
+    height: 50px;
+    border-radius: var(--tamano-border-radius);
+    box-shadow: 0 5px 10px #676666;
+}
+.input-buscador{
+    padding: 5px 15px;
+    width: 85%;
+    outline: none;
+    border: none;
+    background-color: var(--color-secundario);
+    font-size: 20px;
+    border-radius: var(--tamano-border-radius) 0 0 var(--tamano-border-radius);
+}
+
+.btn-search{
+    width: 15%;
+    background-color: var(--color-primario);
+    border-radius: 0 var(--tamano-border-radius) var(--tamano-border-radius) 0;
+    border: none;
+    color: var(--color-secundario);
+}
+
+.btn-search:hover{
+    background-color: var(--color-primario-hover);
+}
+
+/* .......MODAL-biografia........-.-.-.-.-. */
+.modal-biografia {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--color-secundario);
+  }
+  
+  .modal-content-autores {
+    position: relative;
+    background-color: var(--color-secundario);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: FuentePagina;
+    min-height: 100vh;
+  }
+
+  .modal-content-autores .info-modal-biografia .cabecera-texto-biografia
+  {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+
+
+  .modal-content-autores .info-modal-biografia .cabecera-texto-biografia .nombre-texto-biografia{
+    text-align: center;
+    font-weight: bold;
+    min-width: 200px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .modal-content-autores .info-modal-biografia .cabecera-texto-biografia .imagen-texto-biografia img{
+    height: 300px;
+    margin: 5px 15px;
+    border-radius: 35px;
+    box-shadow: 0 0 15px var(--color-secundario-hover);
+  }
+
+  .modal-content-autores .info-modal-biografia .texto-biografia{
+    font-size: 20px;
+    font-family: FuentePagina;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  
+  .close-biografia {
+    position: absolute;
+    color: #aaa;
+    top:6px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-biografia:hover,
+  .close-biografia:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .btn-modal-close-biografia{
+    display: none;
+    position: absolute;
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border: none;
+    border: 2px solid var(--color-secundario);
+    bottom:20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .btn-modal-close-biografia:hover{
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
+  }
+/* .......MODAL........-.-.-.-.-. */
+
+.contenido-autores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.item-autor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    margin: 10px 15px;
+    min-width: 220px;
+    box-shadow: 0 3px 8px var(--color-primario);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.item-autor .top-elements-autor{
+    height: 250px;
+    box-shadow: 0 5px 8px var(--color-secundario-hover);
+    border-radius: 0 0 25px 25px;
+    overflow: hidden;
+}
+
+.item-autor .top-elements-autor img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-autor .bottom-elements-autor{
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-autor .bottom-elements-autor .nombre-autor{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: FuentePagina;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-info-autor, .btn-options-autor{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
+    background-color: var(--color-primario);
+    box-shadow: 0 0 15px var(--color-secundario-hover);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-options-autor{
+    padding: 10px;
+}
+
+.btn-info-autor:hover, .btn-options-autor:hover{
+    color: var(--color-primario);
+    background-color: var(--color-secundario-hover);
+    border: 2px solid var(--color-primario);
+    box-shadow: 0 0 5px var(--color-primario);
+}
+
+.paginacion-container{
+    margin-top: 3rem;
+}
+
+.paginacion-container .page-item{
+    cursor: pointer;
+}
+
+.submenu-autor{
+    box-shadow: 0 0 5px #07143B;
+    font-size: 18px;
+    color: var(--color-primario);
+}
+
+.modificar-autor, .eliminar-autor{
+    cursor: pointer;
+}
+
+.div-estadisticas-admin{
+    width: 40%;
+    height: 200px;
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    background-color: var(--color-secundario);
+    border-top: 15px solid var(--color-primario);
+    border-radius: 35px;
+
+    box-shadow: 0 5px 10px #676666;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div-datos-autor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.datos-autor{
+    font-size: 20px;
+    font-family: FuentePagina;
+    font-weight: bold;
+    color: var(--color-primario);
+    min-width: 150px;
+}
+
+.datos-autor span{
+    color: rgb(18, 199, 18);
+    font-size: 25px;
+}
+
+.btn-insertar-autor{
+    margin: 0 auto;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border: 2px solid var(--color-secundario);
+    cursor: pointer;
+}
+
+.btn-insertar-autor:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+}
+
+/* .......MODAL........-.-.-.-.-. */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+  .modal-content-libros {
+    position: relative;
+    background-color: var(--color-secundario);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: FuentePagina;
+  }
+
+  .modal-content-libros .info-modal{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .close {
+    position: absolute;
+    color: #aaa;
+    top:0px;
+    right: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-modal-close, .btn-modal-calificar{
+    display: none;
+    position: absolute;
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border: none;
+    border: 2px solid var(--color-secundario);
+    bottom:20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .btn-modal-calificar{
+    display: block;
+    bottom:10px;
+    right: 10px;
+  }
+
+  .btn-modal-close:hover, .btn-modal-calificar:hover{
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
+  }
+
+  .titulo-libro-resena{
+    text-align: center;
+  }
+  
+/* .......MODAL........-.-.-.-.-. */
+
+.form-confirm-eliminar-autor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-confirm-eliminar-autor .div-btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.btn-si-eliminar-autor, .btn-no-eliminar-autor{
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border: none;
+    border: 2px solid var(--color-secundario);
+    bottom:20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.btn-si-eliminar-autor:hover, .btn-no-eliminar-autor:hover{
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
+}
+
+@media screen and (max-width: 991.98px) {
+    .div-estadisticas-admin{
+        width: 90%;
+    }
+    .buscador{
+        width: 90%;
+    }
+}

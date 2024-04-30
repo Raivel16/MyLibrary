@@ -1,0 +1,43 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/index-admin/index-admin.css{% endblock %} {% block title%}Inicio Admin{%
+endblock %} {% block main %}
+<!--Main layout-->
+
+<h1 class="text-center">Inicio</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<!-- Estadisticas -->
+<div class="container d-flex justify-content-center">
+  <section class="div-estadisticas-admin">
+    <h1 class="h1-index">Datos estadísticos <i class="fas fa-chart-line"></i></h1>
+    <div class="div-datos-index">
+      <div class="datos-index">
+        Total de libros <i class="fas fa-book"></i> : <span id="total-libros"></span>
+      </div>
+      <div class="datos-index">
+        Libros calificados <i class="fas fa-star"></i> : <span id="libros-calificados"></span>
+      </div>
+    </div>
+    <div class="div-datos-index">
+      <div class="datos-index">
+        Total de autores <i class="fas fa-feather"></i> : <span id="total-autores"></span>
+      </div>
+      <div class="datos-index">
+        Total de géneros <i class="fas fa-masks-theater"></i> : <span id="total-generos"></span>
+      </div>
+    </div>
+    <div class="div-datos-index">
+      <div class="datos-index">
+        Total de usuarios <i class="fas fa-user"></i> : <span id="total-usuarios"></span>
+      </div>
+      <div class="datos-index">
+        Total de admins <i class="fas fa-user-gear"></i> : <span id="total-admins"></span>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Estadisticas -->
+<!--Main layout-->
+{% endblock %} {% block script %}admin/index-admin/index-admin.js{% endblock %}

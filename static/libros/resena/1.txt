@@ -1,0 +1,162 @@
+
+
+<div class="nino" align="justify">
+
+  <table width="100%" border="0">
+
+    <tbody><tr>
+
+      <td width="2%" height="168">&nbsp;</td>
+
+      <td width="96%" valign="top"><p class="nino" align="justify">Cien años de soledad es una novela del  escritor colombiano Gabriel García Márquez, quien obtuvo el Premio Nóbel de  Literatura en 1982, y es considerada una obra maestra de la literatura  hispanoamericana y universal. Es una de las obras más traducidas y leídas en  español. Considerada la segunda obra más importante, después del Quijote de la  Mancha, de la lengua castellana, durante el IV Congreso Internacional de la  Lengua Española celebrado en Cartagena, Colombia, en marzo de 2007.</p>
+
+        <p class="nino" align="justify">La novela fue publicada en Buenos Aires,  Argentina en 1967 por la Editorial Sudamericana con un tiraje inicial de 8 000  ejemplares; hasta la fecha se han vendido más de 30 millones de ejemplares y ha  sido traducida a 35 idiomas</p>
+
+        <p class="nino" align="justify"><b>Sinopsis</b></p>
+
+        <p class="nino" align="justify">Narra la historia de la familia Buendía a lo largo de  siete generaciones en el pueblo ficticio de Macondo. El pueblo es fundado por  diversas familias conducidas por José Arcadio Buendía y Úrsula Iguarán, un  matrimonio de primos que se casaron llenos de presagios y temores por su  parentesco y el mito existente en la región de que su descendencia podía tener  cola de cerdo. Pese a ello, tuvieron tres hijos: José Arcadio, Aureliano y  Amaranta (nombres que se repetirán en las siguientes generaciones). José  Arcadio Buendía, el fundador, es la persona que lidera e investiga con las  novedades que traen los gitanos al pueblo (teniendo una amistad especial con  Melquíades, quien muere en variadas ocasiones y que sería fundamental para el  destino de la familia), y termina su vida atado al árbol hasta donde llega el  fantasma de su enemigo Prudencio Aguilar con el que dialoga. Úrsula es la  matriarca de la familia, quien vive durante más de cien años cuidando de la  familia y del hogar.</p>
+
+        <p class="nino" align="justify">El pueblo poco a poco va creciendo y con  este crecimiento llegan habitantes del otro lado de la ciénaga (terreno que  rodea y aísla al pueblo del exterior, tal como sucede en su natal Aracataca,  Colombia). Con ellos se incrementa la actividad comercial y la construcción en  Macondo. Inexplicablemente llega Rebeca, a quienes los Buendía adoptan como  hija. Desafortunadamente, llegan también con ella la peste del insomnio y la  peste del olvido. La pérdida de la memoria obliga a sus habitantes a crear un  método para recordar las cosas y Aureliano comienza a etiquetar todos los  objetos para recordar sus nombres; no obstante, este método empieza a fallar  cuando las personas también olvidan leer. Hasta que un día regresa Melquíades  de la muerte con una bebida para restablecer la memoria que surte efecto  inmediatamente, y en agradecimiento es invitado a quedarse a vivir en la casa.  En esos momentos escribe unos pergaminos que sólo podrán ser descifrados cien  años después.</p>
+
+        <p class="nino" align="justify">Cuando estalla la guerra civil, la  población toma parte activa en el conflicto al enviar un ejército de  resistencia dirigido por el coronel Aureliano Buendía (segundo hijo de José  Arcadio Buendía), a luchar contra el régimen conservador. En el pueblo,  mientras tanto, Arcadio (nieto del fundador e hijo de Pilar Ternera y José  Arcadio) es designado por su tío jefe civil y militar, y se transforma en un  brutal dictador, quien es fusilado cuando el conservadurismo retoma el poder.</p>
+
+        <p class="nino" align="justify">La guerra continúa y el coronel Aureliano  se salva de morir en varias oportunidades, hasta que, fatigado de luchar sin  sentido, arregla un tratado de paz que durará hasta el fin de la novela.  Después de que el tratado se firma, Aureliano se dispara en el pecho, pero  sobrevive. Posteriormente, el coronel regresa a la casa, se aleja de la  política y se dedica a fabricar pescaditos de oro encerrado en su taller, de  donde sale solamente para venderlos.</p>
+
+        <p class="nino" align="justify">Aureliano Triste, uno de los diecisiete  hijos del coronel Aureliano Buendía, instala una fábrica de hielo en Macondo,  deja a su hermano Aureliano Centeno al frente del negocio y se marcha del  pueblo con la idea de traer el tren. Regresa al cabo de poco tiempo, cumpliendo  con su misión, la cual genera un gran desarrollo, ya que con el tren, llegan  también el telégrafo, el gramófono y el cine. Entonces el pueblo se convierte  en un centro de actividad en la región, atrayendo a miles de personas de  diversos lugares. Algunos extranjeros recién llegados empiezan una plantación  de banano cerca de Macondo. El pueblo prospera hasta el surgimiento de una  huelga en la plantación bananera; para acabar con ella, se hace presente el  ejército nacional y los trabajadores que protestan son asesinados y arrojados  al mar.</p>
+
+        <p class="nino" align="justify">Después de la masacre de los trabajadores  del banano, el pueblo es asediado por las lluvias que se prolongan por cuatro  años, once meses y dos días. Úrsula dice que espera el final de las lluvias  para finalmente morir. Nace Aureliano Babilonia, el último miembro de la línea  Buendía (inicialmente referido como Aureliano Buendía, hasta que más adelante  descubre por los pergaminos de Melquíades que su apellido paterno es  Babilonia). Cuando las lluvias terminan, Úrsula muere y Macondo queda desolado.</p>
+
+        <p class="nino" align="justify">La familia se ve reducida y en Macondo ya  no se acuerdan de los Buendía; Aureliano se dedica a descifrar los pergaminos  de Melquíades en el laboratorio, hasta que regresa de Bruselas su tía Amaranta  Úrsula, con quien tiene un romance. De este, Amaranta Úrsula queda embarazada y  tiene un niño que al nacer se descubre con cola de cerdo; ella muere desangrada  después del parto. Aureliano Babilonia, desesperado, sale al pueblo llamando de  puerta en puerta, pero Macondo ahora es un pueblo abandonado y solo encuentra a  un cantinero que le ofrece aguardiente, quedándose dormido. Al despertar se  acuerda del niño recién nacido y corre a buscarlo, pero a su llegada encuentra  que se lo están comiendo las hormigas.</p>
+
+        <p class="nino" align="justify">Aureliano recuerda que esto estaba predicho  en los pergaminos de Melquíades y termina de descifrar la historia de los  Buendía que ya estaba allí escrita con anticipación, encontrando que al  terminar de leerlos, finalizaría su propia historia y con él, la historia de  Macondo..... "<em>porque las estirpes condenadas a cien años de soledad no  tienen una segunda oportunidad sobre la tierra</em>"</p>
+
+        <p class="nino" align="justify"><strong>Temas centrales </strong></p>
+
+        <blockquote>
+
+          <p class="nino" align="justify"><em>La soledad</em></p>
+
+        </blockquote>
+
+        <p class="nino" align="justify">A lo largo de la novela, todos sus  personajes parecen predestinados a padecer de la soledad, como una  característica innata de la familia Buendía. El pueblo mismo vive aislado de la  modernidad, siempre a la espera de la llegada de los gitanos para traer los  nuevos inventos; y el olvido, frecuente en los acontecimientos trágicos  recurrentes en la historia de la cultura que presenta la obra.</p>
+
+        <p class="nino" align="justify">Principalmente se hace evidente la soledad  en el coronel Aureliano Buendía, ya que su inhabilidad para expresar el amor  hace que se marche a la guerra dejando hijos por diversos lugares de madres  diferentes; en alguna ocasión solicitó trazar un círculo de tres metros a su  alrededor para evitar que se le acercaran y después de firmar la paz, se  dispara en el pecho para no tener que afrontar su futuro, con tan mala fortuna  que no logra su propósito y pasa su vejez en el laboratorio de alquimia  elaborando pescaditos de oro que deshace y rehace en un pacto honrado con la  soledad. Otros personajes como el fundador de Macondo, José Arcadio Buendía  (quien muere solo, atado a un árbol), Úrsula (quien vive la soledad en la  ceguera de su vejez), José Arcadio (hijo del fundador) y Rebeca (quienes se  marchan a habitar solos en otra casa por haber "deshonrado" a la  familia), Amaranta (quien permanece y muere soltera y virgen), Gerineldo Márquez  (quien espera una pensión que nunca llega y el amor de Amaranta), Pietro Crespi  (quien se suicida ante el rechazo de Amaranta), José Arcadio Segundo (quien  desde que vio un fusilamiento nunca tuvo relación con nadie y pasó sus últimos  años encerrado en el cuarto de Melquíades) entre otros, sufren las  consecuencias de su soledad y abandono.</p>
+
+        <p class="nino" align="justify">Una de las razones primordiales por las  cuales terminan solos y frustrados es la incapacidad de sus personajes de amar  o sus prejuicios, lo cual se rompe con la unión de Aureliano Babilonia y  Amaranta Úrsula, quienes desconociendo su parentesco, provocan un final trágico  en la historia en el cual el único hijo procreado con amor es devorado por las  hormigas. La estirpe estaba condenada a cien años de soledad, por lo cual no podían  amar. Hay un caso excepcional que es el de Aureliano Segundo con Petra Cotes,  quienes se aman, pero nunca tienen un hijo. La única opción que tenía un  miembro de la familia de tener un hijo con amor era tenerlo con otro miembro de  la familia, que fue lo que pasó con Aureliano Babilonia y su tía Amaranta  Úrsula, y además este único ser engendrado con amor estaba destinado a morir y  con ello acabar con la estirpe.</p>
+
+        <p class="nino" align="justify">En conclusión se puede decir que la soledad  está presente en todas las generaciones. El suicidio, el desamor, la traición,  el amor, la libertad, el rencor, la pasión, el acercamiento hacía lo indebido,  entre otros, son temas secundarios que a lo largo hacen que Cien años de  soledad sea una novela que cambia la perspectiva de muchos y nos da a entender  que en este mundo vivimos y morimos solos.</p>
+
+        <blockquote>
+
+          <p class="nino" align="justify"><em>La realidad y la ficción</em> </p>
+
+        </blockquote>
+
+        <p class="nino" align="justify">La narración presenta eventos fantásticos  dentro de la cotidianeidad, situación que para los personajes no es anormal;  así mismo, se hace frecuente la exageración del entorno. También se presentan  hechos históricos de Colombia como las guerras civiles entre partidos políticos  y la matanza de las bananeras dentro del mito de Macondo. Eventos como la  elevación de Remedios, la profecía en los pergaminos de Melquíades, la  levitación del padre Nicanor, la reaparición de personajes muertos y los  inventos extraordinarios que traen los gitanos como el imán, la lupa, el hielo,  etc, rompen con el contexto de la realidad presente dentro de la obra e invitan  al lector a entrar en un mundo en el cual las situaciones más inverosímiles  también son posibles.</p>
+
+        <blockquote>
+
+          <p class="nino" align="justify"><em>El incesto</em></p>
+
+        </blockquote>
+
+        <p class="nino" align="justify">Las relaciones entre parientes se marcan  dentro del mito del nacimiento de un hijo con cola de cerdo; a pesar de ello,  estas son presentes entre diversos miembros de la familia y diversas  generaciones a lo largo.</p>
+
+        <p class="nino" align="justify">La historia comienza con la relación entre  dos primos: José Arcadio Buendía y Úrsula, quienes crecieron juntos en la  antigua ranchería, y tienen referencia de unos tíos suyos que tuvieron un hijo  con cola de cerdo. Posteriormente José Arcadio (hijo del fundador, y al que  diferenciamos con el padre por el simple hecho de nombrarlo siempre sin el  apellido para evitar confusiones) se casa con Rebeca Ulloa (hija adoptiva), en  una supuesta relación de hermanos. Aureliano José se enamora de su tía Amaranta  en una relación frustrada, llegando a proponerle matrimonio, pero ésta lo  rechaza. Finalmente se presenta la relación entre Amaranta Úrsula y su sobrino  Aureliano Babilonia quienes desconocen su parentesco debido a que Fernanda del  Carpio, abuela de Aureliano y madre de Amaranta Úrsula, ocultó la verdad de su  origen.</p>
+
+        <p class="nino" align="justify">Esta última —única verdadera relación de  amor en la historia—, paradójicamente es la culpable de la desaparición de la  estirpe Buendía, que estaba predicha en los pergaminos de Melquíades.</p>
+
+        <blockquote>
+
+          <p class="nino" align="justify"><em>Referencias bíblicas</em></p>
+
+        </blockquote>
+
+        <p class="nino" align="justify">Algo muy interesante de este libro es la  asociación fantasmal con muchos fragmentos de la Biblia y la tradición  católica, como su evolución desde la creación (Génesis) hasta la destrucción  (Apocalipsis). Se hace referencia por la similitud del relato a hechos tan  notables como la Asunción de la Virgen María por la elevación de Remedios, al  Éxodo a través de la travesía realizada por las familias fundadoras desde la  Guajira por la sierra hasta llegar a la ciénaga, al Diluvio universal a través  de las lluvias que asedian a Macondo durante casi 5 años, a las plagas cuando  la población sufre de insomnio y de amnesia y al pecado original con el castigo  temido por el incesto.</p>
+
+        <p class="nino" align="justify">También se hace referencia a la Iglesia Católica  cuando el padre Nicanor Reyna llega a Macondo a realizar la boda entre  Aureliano Buendía y Remedios Moscote y encuentra que el pueblo vive en pecado,  sujetos a la ley natural, sin bautizar a los hijos ni santificar las fiestas, y  decide quedarse para evangelizarlo. Es entonces cuando se construye el templo  del pueblo, atrayendo fieles con la exhibición de la levitación que lograba  tomando chocolate. Asimismo José Arcadio (hijo de Aureliano Segundo y Fernanda  del Carpio) es enviado a Roma, ya que quieren que se convierta en Papa, pero  desiste en su intención y regresa al pueblo al cabo de un tiempo.</p>
+
+        <p class="nino" align="justify"><strong>Técnica narrativa</strong></p>
+
+        <p class="nino" align="justify">En <em>Cien años de soledad</em> se utiliza  una técnica narrativa que recurre a un tono, un espacio y un ritmo novelesco  particulares. En conjunto, estos tres elementos permiten que el lector se  familiarice con facilidad en la historia.</p>
+
+        <p class="nino" align="justify">El tono narrativo es claramente definido  por una tercera persona o narrador pasivo heterodiegético (externo a la  historia), el cual va relatando los acontecimientos sin formular juicios y sin  marcar una diferencia entre lo real y lo fantástico. Desde el principio, el  narrador conoce la historia y la cuenta en forma imperturbable y con  naturalidad, incluso en aquellos episodios en los que se relatan sucesos trágicos.  Esta distancia frente a los hechos permite mantener una objetividad del  narrador a lo largo de la obra.</p>
+
+        <p class="nino" align="justify">El espacio novelesco es el universo  mostrado por el narrador, en el cual transcurren los acontecimientos. Macondo  nace y muere en la obra, en donde se incluyen los personajes y en el cual se  observa que todo lo que ocurre externamente es menos denso y consistente dentro  del relato.</p>
+
+        <p class="nino" align="justify">Cabe decir, que el mensaje de esta historia  es muy claro pero a la vez complejo, el mundo en sus orígenes era un mundo de  paz y tranquilidad pero, con el trascurso de los años se va destruyendo con la  tecnología. Cuando el gobierno y la autoridad, quien antes era José Arcadio  Buendía, tratan de organizar el pueblo traen consigo la destrucción de sí  mismos y lo único que logran es que aquel pueblo que alguna vez era el paraíso  y la tranquilidad de muchos se convierta en el infierno y ruinas de todos.</p>
+
+        <p class="nino" align="justify">Podemos afirmar esto, cuando se dice que  nadie había muerto en Macondo pero desde que la disputa entre liberales y  conservadores llega y la fuerza militar aparece Macondo se ve envuelto en un  caos de matanza total.</p>
+
+        <p class="nino" align="justify">La historia transcurre en un pueblo llamado  Macondo, creado por Gabriel García Márquez. Es aquí donde suceden los hechos,  que si bien se apoyan de hechos reales, se transforma en ideal por la fantasía  del autor, donde todo es posible: seres más que centenarios, lluvias que duran  más de cuatro años, apariciones y diálogos con muertos, alfombras que vuelan,  etc.</p>
+
+        <p class="nino" align="justify">En sus comienzos, Macondo, era un  "mundo ideal", un paraíso. "Macondo era entonces una aldea de  veinte casas de barro y cañabrava construidas a la orilla de un río de aguas  diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes  como huevos prehistóricos".</p>
+
+        <p class="nino" align="justify">"En pocos años, Macondo fue la aldea  más ordenada y laboriosa que cualquiera de las conocidas hasta entonces por sus  300 habitantes. Era de verdad una aldea feliz, donde nadie era mayor de treinta  años y donde nadie había muerto".</p>
+
+        <p class="nino" align="justify">Pero en el transcurso de la historia este  mundo de realidades mágicas se ve afectado cuando entra "el mal" en  Macondo, las guerras civiles, la fiebre del banano, la llegada de gente de  distintos lugares a raíz de la empresa bananera, el odio político, pobreza, las  matanzas, las sequías, la llegada del ferrocarril, lo que solo trae desgracias  y muertes. Así, lo imaginario y lo real se enlazan con la historia de Colombia  y con los males que afecta a toda Latinoamérica. Y terminando con el exterminio  total de la aldea Macondo.</p>
+
+        <p class="nino" align="justify">"Macondo estaba en ruinas. En los pantanos  de las calles quedaban muebles despedazados, esqueletos de animales cubiertos  de lirios colorados, últimos recuerdos de las hordas de advenedizos que se  fugaron de Macondo tan atolondradamente como habían llegado".  "Macondo era ya un pavoroso remolino de polvo y escombros...".</p>
+
+        <p class="nino" align="justify">Finalmente el ritmo narrativo le imprime a  la historia un dinamismo que se complementa con el tono. En pocas palabras el  narrador cuenta muchas cosas, condensando la información y mostrando los  detalles esenciales de la historia.</p>
+
+        <p class="nino" align="justify">A lo largo de la obra se recurre a diversas  figuras literarias:</p>
+
+        <p class="nino" align="justify"><em>Oxímoron</em> (presenta  exageraciones utilizando palabras incongruentes y contradictorias): «La región  encantada que exploró José Arcadio Buendía en los tiempos de la fundación, y  donde luego prosperaran las plantaciones de banano, era un tremendal de cepas  putrefactas». </p>
+
+        <p class="nino" align="justify"><em>Sinestesia</em> (metáfora que presenta sensaciones corporales de un sentido en otro): «delicado  viento de luz». </p>
+
+        <p class="nino" align="justify"><em>Anáfora</em> (repetición de una palabra para dar más énfasis a la frase): «...veía los  muertos hombres, los muertos mujeres, los muertos niños que iban a ser  arrojados al mar como banano de rechazo». </p>
+
+        <p class="nino" align="justify"><em>Símil </em>(comparación  directa): «Amaranta Úrsula fue cerrando los dedos como un molusco». </p>
+
+        <p class="nino" align="justify"><em>Epifonema</em> (frase  que quiere dejar una enseñanza): «El coronel Aureliano Buendía apenas sí  comprendió que el secreto de una buena vejez no es otra cosa que un pacto  honrado con la soledad». </p>
+
+        <p class="nino" align="justify"><strong>Tiempo y espacio</strong></p>
+
+        <p class="nino" align="justify">Tiempo: 100 años Tiempo Verbal: Pasado</p>
+
+        <p class="nino" align="justify">La novela está ambientada en el pueblo de  Macondo, un lugar ficticio que refleja muchas de las costumbres y anécdotas  vividas por García Márquez durante su infancia y juventud en su pueblo de  Aracataca, Colombia. El sentido multifacético del tiempo que discurre entre lo  eterno, lo lineal y lo cíclico y una prosa rítmica cercana a la tradición oral  le confieren a la novela su carácter distintivo de mito críptico que llevó a  los críticos a considerarla como una de las obras fundadoras del género  literario conocido como realismo mágico.</p>
+
+        <p class="nino" align="justify"><strong>Ubicación geográfica</strong></p>
+
+        <p class="nino" align="justify">Las referencias de la novela nos enmarcan  en algún lugar de la costa caribe colombiana, haciendo referencia a la sierra y  a la ciénaga (lugares que atraviesa la expedición de José Arcadio Buendía al  partir desde la ciudad de Riohacha). Por su cercanía, puede suponerse que se  trata de la Ciénaga Grande de Santa Marta y la Sierra Nevada de Santa Marta,  lugar que nos ubica geográficamente entre los municipios de Ciénaga (Magdalena)  y Aracataca (población de origen del autor).</p>
+
+        <p class="nino" align="justify"><strong>Tiempo histórico</strong></p>
+
+        <p class="nino" align="justify">Cien años de soledad puede ubicarse en la  historia de Colombia entre mediados del siglo XIX y mediados del siglo XX,  época claramente reconocida por las guerras civiles que enfrentaron a los  nacientes partidos liberal y conservador que debatían las ideologías de régimen  federalista y centralista en el país. Durante la Regeneración, el presidente  Rafael Núñez promulga la constitución de 1886, la cual establece un régimen  centralista en materias principalmente política y económica, iniciando por  entonces la república conservadora (que se prolonga hasta 1930) y teniendo como  principal detractor a Rafael Uribe Uribe, quien lidera la guerra civil de 1895  y la Guerra de los Mil Días entre 1899 y 1902, la cual se termina con la firma  de los tratados de paz de Neerlandia y Wisconsin.</p>
+
+        <p class="nino" align="justify">En 1906 se construye el ferrocarril en la  costa atlántica colombiana conectando Santa Marta y Ciénaga (Magdalena) y por  entonces se establece en el país la compañía <em>United Fruit Company</em> para  la explotación bananera, situación que trae un rápido desarrollo a la región.  El trato inhumano a los trabajadores obligó a organizar una huelga en noviembre  de 1928 que desencadenó los acontecimientos conocidos como la Masacre de las  Bananeras, narrada con gran belleza en la novela.</p>
+
+        <p class="nino" align="justify"><strong>Tiempo cíclico</strong></p>
+
+        <p class="nino" align="justify">A pesar de estar ubicada en un marco  histórico reconocible, la historia parece estática ya que ocurren  acontecimientos que se repiten en forma cíclica una y otra vez. Gabriel García  Márquez dotó de cierta personalidad a los personajes que aparecen al principio  de la obra, cierta personalidad se ve reflejada en cada personaje que nace y  adopta el mismo nombre de su antepasado, como en el caso de los Aurelianos y  los José Arcadios[5] . Esta misma característica se presenta en otras  situaciones como las relaciones incestuosas y los destinos solitarios de sus  protagonistas, en un círculo vicioso que solo termina cuando el pueblo entra en  decadencia y se acerca el fin de la familia Buendía.</p>
+
+        <p class="nino" align="justify"><strong>Trascendencia</strong></p>
+
+        <p class="nino" align="justify">La originalidad de esta obra se hace  evidente en la trascendencia que ha tenido para la literatura universal. La  novela es considerada referente del llamado <em>Boom latinoamericano </em>y del <em>Realismo  mágico</em>, con diversos escritores que han sido fieles a este mismo estilo  como Isabel Allende. Después de Cien años de soledad se suscita una escuela  macondiana que tuvo repercusión en países tan lejanos como en la India con el  escritor Salman Rushdie.</p>
+
+        <p class="nino" align="justify">Esta obra literaria ha inspirado a otras expresiones  artísticas como la música; las canciones Roderigo de la banda Seven Mary Three,  The Sad Waltzes of Pietro Crespi de Owen, Banana Co. de Radiohead, Sto Let  Odinochestva de Belaya Gvardiya y Macondo del cantante mexicano Óscar Chávez se  basan en la novela.</p>
+
+        <p class="nino" align="justify">Recientemente la televisión húngara realizó  un documental basado en el libro Cien años de soledad (Száz év magány, en  húngaro), bajo la dirección de Peter Gothar, el cual fue filmado en la ciudad  de Cartagena de Indias, dentro de la serie de televisión denominada "A  Nagy Könyv".</p>
+
+        <p class="nino" align="justify">Durante el IV Congreso Internacional de la Lengua Española  el 26 de marzo de 2007 en Cartagena de Indias se llevó a cabo un gran homenaje  a Gabriel García Márquez y su obra al cumplirse los 40 años de publicación de  Cien años de soledad. Asistieron a dicho evento el rey de España Juan Carlos I,  la reina Sofía de Grecia, el presidente de Colombia Álvaro Uribe Velez, el  presidente de Panamá Martín Torrijos, el ex presidente de Estados Unidos Bill  Clinton y varios escritores, entre muchos otros invitados ilustres, quienes  elogiaron la obra de García Márquez. Además, la Real Academia Española junto  con la Asociación de Academias de la Lengua Española comercializaron una  edición conmemorativa de Cien años de soledad impulsadas por la buena acogida  que había tenido dos años antes la edición de Don Quijote de la Mancha que las  academias promovieron con motivo de su IV centenario. El volumen incluía textos  introductorios a la obra de García Márquez de la mano de Álvaro Mutis, Carlos  Fuentes, Mario Vargas Llosa, Víctor García de la Concha y Claudio Guillén.</p>
+
+        <p class="nino" align="justify"><strong>Cultura popular </strong></p>
+
+        <p class="nino" align="justify"><strong>&nbsp;</strong>La obra ha pasado a ser parte de la cultura  popular latinoamericana haciéndose referencias a menudo a Macondo, el pueblo  ficticio en el que se desarrolla la novela. En los años 80, la formación  musical de cumbia chilena Sonora Giolito y su Combo, interpretó la canción 'Yo  me voy para Macondo'. Asimismo, la canción Sudamérica suda del grupo de rock  chileno Sexual Democracia hace referencia a Cien años de soledad al comparar la  historia de Macondo a la historia de América del Sur.</p>
+
+        <p class="nino" align="justify"><strong>Premios</strong></p>
+
+        <p class="nino" align="justify">Cien años de soledad recibió el Premio  Rómulo Gallegos en Venezuela en 1972. Adicionalmente Gabriel García Márquez  recibió el Premio Nóbel de Literatura en 1982 por su obra completa.</p>
+
+        <p class="nino" align="justify">&nbsp;</p>      </td>
+
+      <td width="2%">&nbsp;</td>
+
+    </tr>
+
+  </tbody></table>
+
+</div>
+

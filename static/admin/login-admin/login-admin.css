@@ -1,0 +1,97 @@
+/*Color azul oscuro
+R: 7 G: 20 B: 59
+#07143B
+*/
+
+/*Color gris claro
+R: 227 G: 227 B: 227
+#E3E3E3
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-primario{
+    background-color: #07143B;
+}
+
+.bg-secundario{
+    background-color: #E3E3E3;
+}
+
+.color-primario{
+    color: #07143B;
+}
+
+.color-secundario{
+    color: #E3E3E3;
+}
+
+.shadow-strong-login{
+    box-shadow: 2px 2px 20px rgba(227, 227, 227, 0.4)!important;
+}
+
+.input-login{
+    color: #E3E3E3;
+    border: 2px solid #E3E3E3;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: 15px 0;
+
+}
+.input-login input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    color:#E3E3E3;
+}
+ 
+
+.btn-acceder-login{
+    width: 100%;
+    background-color: #E3E3E3;
+    border: 2px solid #E3E3E3;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #07143B;
+    font-weight: bold;
+}
+.btn-acceder-login:hover{
+    background-color: transparent;
+    color: #E3E3E3;
+}
+
+.errores-inicioSesion{
+    display: none;
+    border: 1px solid rgb(255, 39, 39);
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(255, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 991.98px) {
+    .arrow-login {
+        display: none;
+    }
+    .body-login{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .border-b-radius-login{
+        border-radius: 0 6rem 6rem 0;
+    }
+    .form-login-iniciar{
+        width: 60%;
+    }
+}
+
+.col-lg-7,
+.col-lg-12 {
+  transition: all 0.8s ease;
+}

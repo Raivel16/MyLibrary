@@ -1,0 +1,82 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/usuarios-admin/usuarios-admin.css{% endblock %} {% block title%}Usuarios
+Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="text-center">Usuarios y Admins</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+
+<!-- Estadisticas -->
+<div class="container d-flex justify-content-center">
+  <section class="div-estadisticas-admin">
+    <div class="div-datos-usuarios">
+      <div class="datos-usuarios">
+        Total de Usuarios: <span id="total-usuarios"></span>
+      </div>
+      <div class="datos-usuarios">
+        Total de Admins: <span id="total-admins"></span>
+      </div>
+    </div>
+    <div class="div-btns-insertar">
+      <a class="btn-insertar-admin" href="/admin-usuario-insertar"
+        >Insertar nuevo Usuario</a
+      >
+      <a class="btn-insertar-admin" href="/admin-admin-insertar"
+        >Insertar nuevo Admin</a
+      >
+    </div>
+  </section>
+</div>
+<!-- Estadisticas -->
+
+<!-- Buscador -->
+<div class="container">
+  <section class="seccion-busqueda">
+    <form class="buscador bg-primary d-flex" id="buscador-form">
+      <input
+        type="search"
+        name="search"
+        id="search"
+        class="input-buscador"
+        placeholder="Buscar"
+        autocomplete="off"
+      />
+      <button type="submit" class="btn-search" id="btn-search">
+        <i class="fas fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </section>
+</div>
+<!-- Buscador -->
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<section class="seccion-usuarios">
+  <h1 class="text-center">Usuarios:</h1>
+  <div class="filtros-usuarios" id="filtros-usuarios"></div>
+</section>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<section class="seccion-usuarios">
+  <h1 class="text-center">Admins:</h1>
+  <div class="filtros-usuarios" id="filtros-admins"></div>
+</section>
+
+<!--Main layout-->
+{% endblock %} {% block script %}admin/usuarios-admin/usuarios-admin.js{%
+endblock %}

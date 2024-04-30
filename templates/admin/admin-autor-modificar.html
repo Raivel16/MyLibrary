@@ -1,0 +1,109 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/autores-admin/autores-insertar-admin.css{% endblock %} {% block
+title%}Autores Modificar Admin{% endblock %} {% block main %}
+<!--Main layout-->
+<div id="myModal" class="modal">
+  <div class="modal-content-libros" id="modal-content-libros">
+    <span class="close">&times;</span>
+    <div id="info-modal" class="info-modal"></div>
+    <button class="btn-modal-close" id="btn-modal-close" type="button">
+      Cerrar
+    </button>
+  </div>
+</div>
+
+<h1 class="h-insertar-autor">Modificar Autor</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<form class="form-insertar-autor" id="form-insertar-autor">
+  <div class="container div-insertar-autor-form">
+    <input type="hidden" id="id_autor" value="{{id_autor}}" />
+    <h3 class="h-insertar-autor">Nombres del autor</h3>
+    <input
+      type="text"
+      class="nombres-autor-insertar"
+      id="nombres-autor-insertar"
+      autocomplete="off"
+      placeholder="Nombres"
+      value="{{nombres}}"
+    />
+
+    <h3 class="h-insertar-autor">Apellidos del autor</h3>
+    <input
+      type="text"
+      class="nombres-autor-insertar"
+      id="apellidos-autor-insertar"
+      autocomplete="off"
+      placeholder="Apellidos"
+      value="{{apellidos}}"
+    />
+  </div>
+
+  <!-- Separador -->
+  <hr class="hr hr-blurry" />
+
+  <div class="container">
+    <h3 class="h-insertar-autor">Biografía</h3>
+    <div class="toolbar" id="toolbar">
+      <button type="button" class="btn-toolbar" onclick="execCommand('bold')">
+        <b><i class="fas fa-bold"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="execCommand('italic')">
+        <i><i class="fas fa-italic"></i></i>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="setFontSize()">
+        <b><i class="fas fa-text-height"></i></b>
+      </button>
+      <button
+        type="button"
+        class="btn-toolbar"
+        onclick="execCommand('insertUnorderedList')"
+      >
+        <b><i class="fas fa-list"></i></b>
+      </button>
+      <button
+        type="button"
+        class="btn-toolbar"
+        onclick="execCommand('insertOrderedList')"
+      >
+        <b><i class="fas fa-list-ol"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="indentText()">
+        <b><i class="fas fa-indent"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" onclick="outdentText()">
+        <b><i class="fas fa-indent" style="transform: scaleX(-1)"></i></b>
+      </button>
+      <button type="button" class="btn-toolbar" id="btn-source" onclick="toggleSourceView()">
+        <b><i class="fas fa-code"></i></b>
+      </button>
+    </div>
+    <div
+      class="biografia-insertar-autor"
+      id="editor"
+      contenteditable="true"
+      oninput="updateHtmlPreview()"
+    >
+      <input type="hidden" id="biografia-txt" value="{{biografia}}" />
+    </div>
+  </div>
+
+  <!-- Separador -->
+  <hr class="hr hr-blurry" />
+
+  <div class="container archivos-insertar-autor">
+    <div>
+      <h4 class="h-insertar-autor">Imagen del autor (423x510 px)</h4>
+      <input type="file" id="imagen-insertar-autor" accept=".jpg" />
+    </div>
+  </div>
+
+  <button type="submit" class="btn-insertar-autor">Modificar</button>
+</form>
+
+<!-- paginacion -->
+<!--Main layout-->
+{% endblock %} {% block script
+%}admin/autores-admin/autores-modificar-admin.js{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "admin/admin-layout.html" %} {% block style
+%}admin/generos-admin/generos-admin.css{% endblock %} {% block title%}Géneros
+Admin{% endblock %} {% block main %}
+<!--Main layout-->
+
+<div id="myModal" class="modal">
+    <div class="modal-content-libros" id="modal-content-libros">
+      <span class="close">&times;</span>
+      <div id="info-modal" class="info-modal"></div>
+      <button class="btn-modal-close" id="btn-modal-close" type="button">
+        Cerrar
+      </button>
+    </div>
+  </div>
+
+  <h1 class="text-center">Géneros</h1>
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<!-- Estadisticas -->
+<div class="container d-flex justify-content-center">
+  <section class="div-estadisticas-admin">
+    <div class="div-datos-genero">
+      <div class="datos-genero">
+        Total de géneros: <span id="total-generos"></span>
+      </div>
+    </div>
+    <a class="btn-insertar-genero" href="/admin-genero-insertar"
+      >Insertar nuevo género</a
+    >
+  </section>
+</div>
+<!-- Estadisticas -->
+
+<!-- Buscador -->
+<div class="container">
+  <section class="seccion-busqueda">
+    <form class="buscador bg-primary d-flex" id="buscador-form">
+      <input
+        type="search"
+        name="search"
+        id="search"
+        class="input-buscador"
+        placeholder="Buscar"
+        autocomplete="off"
+      />
+      <button type="submit" class="btn-search" id="btn-search">
+        <i class="fas fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </section>
+</div>
+<!-- Buscador -->
+
+<!-- Separador -->
+<hr class="hr hr-blurry" />
+
+<section class="seccion-filtrar-genero">
+  <div class="filtros-genero" id="filtros-genero"></div>
+</section>
+<!--Main layout-->
+{% endblock %} {% block script %}admin/generos-admin/generos-admin.js{% endblock
+%}

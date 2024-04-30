@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: 'FuentePagina';
+    src: url('/static/font/Roboto-Medium.ttf') format('ttf');
+    /* Puedes agregar otros formatos de fuente aquí si los tienes, como .ttf, .otf, etc. */
+}
+
+:root{
+    --color-primario:#07143B;
+    --color-primario-hover:#05206e;
+    --color-secundario:#E3E3E3;
+    --color-secundario-hover:#cac8c8;
+}
+
+
+
+.contenedor-filas-historial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    
+    border-radius: 18px;
+    box-shadow: 0 5px 10px #676666;
+}
+
+.contenedor-filas-historial.contenido{
+    margin-bottom: 20px;
+}
+
+.fila{
+    width: 100%;
+    background-color: #0f4;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid var(--color-primario);
+}
+
+.fila.encabezado-fila{
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border-radius: 18px 18px 0 0; 
+}
+
+
+.fila .columna{
+    text-align: center;
+    margin: 0 2px;
+    padding: 2px;
+    flex: 1 0 0%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .div-right-admin{
+        padding: 10px;
+        padding-top: 40px;
+    }    
+}
